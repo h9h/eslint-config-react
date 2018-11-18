@@ -1,14 +1,17 @@
 module.exports = {
-  plugins: ["prettier"],
+  plugins: ['prettier'],
   rules: {
-    "prettier/prettier": "error"
+    'prettier/prettier': [
+      'error',
+      {
+        printWidth: 80,
+        parser: 'flow',
+        semi: false,
+        singleQuote: true,
+      },
+
+    ],
   },
-  extends: ["prettier"],
-  parser: "babel-eslint",
-  prettier: {
-    printWidth: 80,
-    parser: "flow",
-    semi: false,
-    singleQuote: true
-  }
-};
+  extends: ['prettier'],
+  parser: 'babel-eslint',
+}

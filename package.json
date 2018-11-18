@@ -1,6 +1,6 @@
 {
   "name": "@h9h/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ESLint Configuration for React Projects",
   "main": "index.js",
   "scripts": {
