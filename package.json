@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/h9h/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/h9h/eslint-config-react#readme"
+  "homepage": "https://github.com/h9h/eslint-config-react#readme",
+  "peerDependencies": {
+    "babel-core": ">=6",
+    "babel-runtime": ">=6",
+    "eslint": ">=5",
+    "eslint-config-prettier": ">=3",
+    "eslint-plugin-prettier": ">=2",
+    "eslint-plugin-react": ">=7",
+    "prettier": ">=1"
+  }
 }
